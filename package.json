@@ -1,0 +1,33 @@
+{
+  "name": "ual-hamian",
+  "version": "0.0.4",
+  "description": "ual hamian wallet",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc --build tsconfig.json",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vahidHossaini/ual-hamian.git"
+  },
+  "keywords": [
+    "ual",
+    "hamian",
+    "wallet",
+    "telos"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vahidHossaini/ual-hamian/issues"
+  },
+  "homepage": "https://github.com/vahidHossaini/ual-hamian#readme",
+  "dependencies": {
+    "hamian": "0.0.8",
+    "typescript": "^4.1.3",
+    "universal-authenticator-library": "^0.3.0"
+  }
+}
